@@ -2,7 +2,7 @@ pipeline {
     agent { label 'master' }
     tools {
         maven 'maven'
-        jdk '1.8.0_211'
+    //    jdk '1.8.0_211'
     }
     stages {
         stage('Build') {
